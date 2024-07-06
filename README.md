@@ -4,11 +4,11 @@
 
 ---
 
-[![Release](https://img.shields.io/github/v/release/fpgmaas/cookiecutter-poetry)](https://pypi.org/project/cookiecutter-poetry/)
+<!-- [![Release](https://img.shields.io/github/v/release/fpgmaas/cookiecutter-poetry)](https://pypi.org/project/cookiecutter-poetry/)
 [![Build status](https://img.shields.io/github/actions/workflow/status/fpgmaas/cookiecutter-poetry/main.yml?branch=main)](https://github.com/fpgmaas/cookiecutter-poetry/actions/workflows/main.yml?query=branch%3Amain)
 [![Supported Python versions](https://img.shields.io/pypi/pyversions/cookiecutter-poetry)](https://pypi.org/project/cookiecutter-poetry/)
 [![Docs](https://img.shields.io/badge/docs-gh--pages-blue)](https://fpgmaas.github.io/cookiecutter-poetry/)
-[![License](https://img.shields.io/github/license/fpgmaas/cookiecutter-poetry)](https://img.shields.io/github/license/fpgmaas/cookiecutter-poetry)
+[![License](https://img.shields.io/github/license/fpgmaas/cookiecutter-poetry)](https://img.shields.io/github/license/fpgmaas/cookiecutter-poetry) -->
 
 This is a modern Cookiecutter template that can be used to initiate a Python project with all the necessary tools for development, testing, and deployment. It supports the following features:
 
@@ -34,20 +34,20 @@ This is a modern Cookiecutter template that can be used to initiate a Python pro
 
 ## Quickstart
 
-On your local machine, navigate to the directory in which you want to
+<!-- On your local machine, navigate to the directory in which you want to
 create a project directory, and run the following two commands:
 
 ```bash
 pip install cookiecutter-poetry
 ccp
-```
+``` -->
 
 Alternatively, install `cookiecutter` and directly pass the URL to this
 Github repository to the `cookiecutter` command:
 
 ```bash
 pip install cookiecutter
-cookiecutter https://github.com/fpgmaas/cookiecutter-poetry.git
+cookiecutter https://github.com/dcaswell33/cookiecutter-poetry-az
 ```
 
 Create a repository on GitHub, and then run the following commands, replacing `<project-name>`, with the name that you gave the Github repository and
