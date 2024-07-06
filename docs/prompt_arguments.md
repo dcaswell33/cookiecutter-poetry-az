@@ -41,6 +41,10 @@ A short description of your project.
 workflows to setup the environment and run code formatting checks
 and unittests.
 
+**azure_deps**
+
+`"y"` or `"n"`. Adds a libraries for Azure services.
+
 **publish_to**
 
 `"pypi"`, `"artifactory"`, or `"none"`. Adds functionality to the

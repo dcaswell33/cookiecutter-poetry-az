@@ -12,6 +12,11 @@ packages = [
 
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
+{% if cookiecutter.azure_deps == 'y' -%}
+python-dotenv = "^1.0.1"
+azure-keyvault-secrets = "^4.8.0"
+azure-identity = "^1.17.1"
+{% endif -%}
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2.0"
